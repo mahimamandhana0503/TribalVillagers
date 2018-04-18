@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f9"
+    tools:context="com.example.chinmay.tribe.guestvillage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textStyle="bold"
+        android:background="#f92e0a"
+
+
+        android:text="CALL"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        android:id="@+id/t1"
+        android:onClick="call"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+
+        android:text="CAMERA"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        android:id="@+id/t2"
+        android:onClick="camera"
+
+        android:layout_below="@+id/t1"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="#d4cccc"
+
+        android:text="VIDEO"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        android:id="@+id/t3"
+        android:onClick="video"
+
+        android:layout_below="@+id/t2"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="#222222"
+
+
+        android:text="HOTSPOT"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:textSize="23sp"
+        android:textColor="#e9e9e9"
+        android:id="@+id/t4"
+        android:onClick="hotspot"
+
+        android:layout_below="@+id/t3"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="#605959"
+
+        android:text="VOICE ASSISTANT"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:textSize="23sp"
+        android:textColor="#ebebeb"
+        android:id="@+id/t5"
+        android:onClick="voice"
+
+        android:layout_below="@+id/t4"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+
+
+</RelativeLayout>
