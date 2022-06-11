@@ -1,3 +1,5 @@
+# TribalTourism
+
 An app developed to promote tourism in Tribal areas by tribal people. Any tribe can use this to promote their locality, business venture in tribal areas/ village. Local homestays, tribal tours, cultural performances could be promoted. Unexplored Bastar (www.unexploredbastar.com), Slum Gods of Dharavi (www.slumgods.in), etc. are some examples.
 
 **TECHNOLOGY USED**
